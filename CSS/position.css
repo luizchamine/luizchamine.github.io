@@ -1,0 +1,21 @@
+.quadro {
+    height: 600px;
+    width: 400px;
+    background-color: pink;
+    border: 4px solid purple;
+}
+
+.quadrado {
+    height: 100px;
+    width: 100px;
+}
+
+.marrom {
+    background-color: brown;
+}
+.laranja{
+    background-color: orange;
+}
+.verde{
+    background-color:green;
+}

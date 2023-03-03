@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>position etc.</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="./CSS/position.css"> -->
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .quadro {
+            height: 1500px;
+            width: 400px;
+            background-color: pink;
+            border: 2px solid purple;
+            position: relative;
+        }
+
+        .quadrado {
+            height: 100px;
+            width: 100px;
+        }
+
+        .turquesa {
+            background-color: turquoise;
+            position: absolute;
+            right: 0px;
+            /* o posicionamento desse elemento é relativo ao pai/avô desde que 
+            esse pai não tenha o posicionamento estático */
+            /* os outros elementos ignoram a presença do elemento
+            com posicionamento absoluto.
+            é como se ele estivesse fora da jogada */
+        }
+
+        .carmesim {
+            background-color: crimson;
+            position: static;
+            /* static é o posicionamento padrão */
+        }
+
+        .laranja {
+            background-color: orangered;
+            position: relative;
+            /* relativo a posição que o elemento deveria estar */
+            top: 400px;
+            left: 300px;
+            /* para que o elemento não vaze, é necessário considerar a posição
+            inicial em que ele deveria estar */
+        }
+
+        .verde {
+            background-color: green;
+            position: fixed;/* esse posicionamento é em relação
+            a viewport do usuário, ele desconsidera todos os elementos */
+            left: 410px;
+        }
+        .azul{
+            background-color:mediumblue;
+            position: sticky;
+            top:-90px;
+            /* os outros elementos ainda enxergam o sticky, diferentemente
+            do fixed */
+        }
+        .roxo{
+            background-color:purple;
+            position: static;
+            margin-left: 200px;
+            padding: 50px;
+        }
+        div{
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quadro">
+        <div class="quadrado turquesa"> absolute </div>
+        <div class="quadrado carmesim"> static </div>
+        <div class="quadrado laranja"> relative </div>
+        <div class="quadrado verde"> fixed </div>
+        <div class="quadrado azul"> sticky </div>
+        <div class="quadrado roxo">static</div>
+    </div>
+</body>
+
+</html>
