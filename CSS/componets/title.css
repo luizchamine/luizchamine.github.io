@@ -1,6 +1,7 @@
 h1{
     font-family: 'Press Start 2P', 'helvetica', sans-serif;
-    color: black;
-    text-shadow: 4px 4px 0px grey;
+    color: darkgray;
+    text-shadow: 4px 4px 0px black;
     font-size: 40px;
+    text-align: inherit;
 }

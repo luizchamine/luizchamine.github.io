@@ -3,4 +3,5 @@ h2{
     font-size: 28px;
     text-shadow: 4px 4px 2px black;
     color: salmon;
+    text-align: inherit;
 }
