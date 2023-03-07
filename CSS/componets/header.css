@@ -1,0 +1,11 @@
+.header {
+    background-color: #3E106C;
+    border-bottom: 10px solid salmon;
+    padding: 10px 20px;
+    display: flex;/* se não é inline, então ocupa todo o bloco */
+    justify-content: space-between; /* serve para reposicionar os elementos  do conjunto */  
+    align-items: center;
+}
+.header .navigation{/* elemento: item do componente header */
+    text-align: right;
+}
