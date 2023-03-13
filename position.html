@@ -76,10 +76,21 @@
             font-family:'Courier New', Courier, monospace;
             font-weight: 800;
         }
+        .progress-bar{
+            color:blue;
+            background-color: red;
+        }
+        .progress-bar::-webkit-progress-bar{
+            color:green;
+            background-color:magenta;
+        }
     </style>
 </head>
 
 <body>
+    <progress class="progress-bar" max="100" value="83">
+        89%
+    </progress>
     <div class="quadro">
         <div class="quadrado turquesa"> absolute </div>
         <div class="quadrado carmesim"> static </div>

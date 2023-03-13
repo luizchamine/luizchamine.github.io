@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html land="pt-BR">
+
 <head>
     <title>título da página</title>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="CSS/componets/header.css">
     <link rel="stylesheet" href="CSS/componets/banner.css">
     <link rel="stylesheet" href="CSS/componets/section.css">
+    <link rel="stylesheet" href="CSS/componets/skill-tec.css">
     <link rel="stylesheet" href="./CSS/index.css">
-    <link rel="stylesheet" href="CSS/componets/title.css">
+    <link rel="stylesheet" href="CSS/componets/main-title.css">
     <link rel="stylesheet" href="CSS/componets/subtitle.css">
     <link rel="stylesheet" href="CSS/componets/box.css">
     <link rel="stylesheet" href="CSS/componets/button.css">
     <link rel="stylesheet" href="CSS/componets/action.css">
+    <link rel="stylesheet" href="CSS/componets/progress-bar.css">
 </head>
+
 <body>
     <header class="header">
         <!-- <img id="logomarca" src="./assets/img/henriquedezessete_a_beautiful_witch_330423e3-ab26-45b8-895c-c9d9026e13c3.png" > -->
@@ -36,7 +41,7 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title">Luiz Henrique</h1>
+                <h1 class="main-title">Luiz Henrique</h1>
                 <h2 class="subtitle"> Gestor de Vida </h2>
             </div>
             <nav class="navigation">
@@ -46,10 +51,21 @@
         </div>
     </section>
     <section class="section">
-        <h2 class="title -second">skills</h2>
+        <h2 class="main-title -second">skills</h2>
+
+        <article class="skill-tec">
+            <!--description list-->
+            <img class="icon" src="img/ico_html5.png" alt="logo html5">
+            <div class="right">
+                <h3 class="subtitle">
+                    <!--description title-->
+                    html
+                </h3>
+                <progress class="progress-bar" max="100" value="70">70%</progress>
+            </div>
+        </article>
     </section>
-    <section class="section">
-        s
-    </section>
+
 </body>
+
 </html>
