@@ -8,6 +8,3 @@
 .box .title{/* espaço significa que irá abranger os filhos */
     margin-bottom: 28px;
 }
-#deslizar{
-    scroll-margin-bottom: inherit;
-}
