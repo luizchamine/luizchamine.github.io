@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     box-sizing: border-box;
     background-image: url(../../assets/img/foto\ da\ alice.png);
     height: 885px;
@@ -8,15 +8,15 @@
     padding-top: 115px;
     padding-left: 90px;
 }
-.banner .wrapper{
+.main-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 630px;
 }
-.banner .box{
+.main-banner .box{
     margin-bottom: 40px;
 }
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-around;/* alinha de acordo com o flex-direction */
 
