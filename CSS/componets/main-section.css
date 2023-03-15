@@ -1,16 +1,16 @@
-.section{
+.main-section{
     background-color: darkslategray;
     padding-top:50px;
     padding-bottom:100px;
 }
-.section .main-title{
+.main-section .main-title{
     margin-bottom:60px;
 }
-.section.-skills{
+.main-section.-skills{
     background-color:pink;
     border-bottom:10px solid salmon;
 }
-.section.-projetos{
+.main-section.-projetos{
     background-color:darkolivegreen;
     border-bottom:10px solid salmon;
 }
