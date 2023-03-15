@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color:aquamarine;
@@ -9,7 +9,7 @@
 }
 /* : pseudo classe
    :: pseudo elemento  */
-.action::before{
+.main-action::before{
     content: "";
     height: 10px;
     width: 10px;
