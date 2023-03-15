@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="CSS/componets/action.css">
     <link rel="stylesheet" href="CSS/componets/progress-bar.css">
     <link rel="stylesheet" href="CSS/componets/card-project.css">
+    <link rel="stylesheet" href="CSS/componets/wrapper-card.css">
+
 </head>
 
 <body>
@@ -36,18 +38,27 @@
             <a class="button" href="" lang="en">download cv</a>
         </nav>
     </header>
-    
+
     <section class="section -projetos">
         <h3 class="main-title -second">Projetos</h3>
-        <figure class="card-project">
-            <img class="card" src="img/logo-firedlabs.png" alt="logo firelab">
-        </figure>
-        <figure class="card-project -blue">
-            <img class="card" src="img/logo-collabcode.png" alt="logo colab">
-        </figure>
-        <figure class="card-project">
-            <img class="card" src="img/portfolio.png" alt="portfolio">
-        </figure>
+
+        <div class="wrapper-card">
+            <a href="df">
+                <figure class="card-project">
+                    <img class="card" src="img/logo-firedlabs.png" alt="logo firelab">
+                </figure>
+            </a>
+            <a href="bb">
+                <figure class="card-project -blue">
+                    <img class="card" src="img/logo-collabcode.png" alt="logo colab">
+                </figure>
+            </a>
+            <a href="22">
+                <figure class="card-project">
+                    <img class="card" src="img/portfolio.png" alt="portfolio">
+                </figure>
+            </a>
+        </div>
     </section>
 
     <!-- <div class="foto">
@@ -68,7 +79,7 @@
     </section>
     <section class="section -skills">
         <h2 class="main-title -second">skills</h2>
-        <div class="wrapper-skill">    
+        <div class="wrapper-skill">
             <article class="skill-tec">
                 <!--description list-->
                 <img class="icon" src="img/ico_html5.png" alt="logo html5">

@@ -1,7 +1,7 @@
 .card-project{
     background-color: darkorchid;
-    width:280px;
-    height:280px;
+    width:200px;
+    height:200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,4 +9,7 @@
 }
 .card-project.-blue{
     background-color:darkblue
+}
+.card-project .card{
+    width: 80%;
 }
