@@ -1,10 +1,10 @@
-.box{
+.main-box{
     display: inline-block;
     background-color: darkslategrey;
     box-shadow: 10px 10px 2px black;
     text-align: center;
     padding: 42px 45px;
 }
-.box .title{/* espaço significa que irá abranger os filhos */
+.main-box .main-title{/* espaço significa que irá abranger os filhos */
     margin-bottom: 28px;
 }

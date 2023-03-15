@@ -13,8 +13,8 @@
     flex-direction: column;
     width: 630px;
 }
-.main-banner .box{
-    margin-bottom: 40px;
+.main-banner .main-box{
+    margin-bottom: 35px;
 }
 .main-banner .navigation{
     display: flex;
