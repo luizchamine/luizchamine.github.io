@@ -23,7 +23,12 @@
     <link rel="stylesheet" href="CSS/componets/progress-bar.css">
     <link rel="stylesheet" href="CSS/componets/card-project.css">
     <link rel="stylesheet" href="CSS/componets/wrapper-card.css">
-
+    <link rel="stylesheet" href="CSS/componets/main-description.css">
+    <link rel="stylesheet" href="CSS/componets/button-arrow.css">
+    <link rel="stylesheet" href="CSS/componets/node-card.css">
+    <link rel="stylesheet" href="CSS/componets/main-carousel.css">
+    <link rel="stylesheet" href="CSS/componets/main-footer.css">
+    
 </head>
 
 <body>
@@ -38,6 +43,67 @@
             <a class="main-button" href="" lang="en">download cv</a>
         </nav>
     </header>
+    <footer class="main-footer">
+        <a class="action" href="">
+            <img src="img/icon-twitter.png" alt="logo do twitter">
+        </a>
+        <a class="action" href="">
+            <img src="img/icon-youtube.png" alt="lodo do youtube">
+        </a>
+        <a class="action" href="">
+            <img src="img/icon-discord.png" alt="logo do discord">
+        </a>
+    </footer>
+    <section class="main-section -sobre">
+        <h2 class="main-title -second">sobre</h2>
+        <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Plc
+            at veritatis voluptates ipsum dolor culpa, libero enim alia
+            s dolorum impedit optio veniam, reiciendis aperiam fuga as
+            pernatur ipsam eum sit suscipit reprehenderit.
+        </p>
+        <section class="main-carousel">
+            
+            <button class="button-arrow -left"><span class="content">avançar</span></button>
+            
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-locaweb.png" alt="logo locaweb">
+                        </div>
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-caelum.png" alt="logo caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-getninjas.png" alt="logo getninjas">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-impulso.png" alt="logo impulso">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2021</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-collabcode.png" alt="logo collabcode">
+                        </div>
+                    </figure>
+                </div>
+
+            </div>
+            
+            <button class="button-arrow -right"><span class="content">voltar</span></button>
+        </section>
+    </section>
 
     <section class="main-section -projetos">
         <h3 class="main-title -second">Projetos</h3>
@@ -170,7 +236,8 @@
             </article>
         </div>
     </section>
-
+    <script src="js/components/main-carousel.js">
+    </script>
 </body>
 
 </html>
