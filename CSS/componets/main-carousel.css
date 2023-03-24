@@ -1,0 +1,47 @@
+.main-carousel{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-carousel::after{
+    content:'';
+    height: 5px;
+    background-color: black;
+    display:block;
+    width: calc(100% - 80px);
+    position:absolute;
+    left:40px;
+    top:30px;
+}
+.main-carousel .items{
+    width:100%;
+    display:block;
+    overflow: hidden;
+}
+.main-carousel .elements{
+    display: flex;
+    justify-content: space-around;
+}
+.main-carousel::before{
+    content:'';
+    box-sizing: border-box;
+    border: 2.5px dashed black;
+    display:block;
+    width: 100%;
+    position:absolute;
+    left:0px;
+    top:30px;
+}
+.main-carousel .button-arrow{
+    position: relative;
+    bottom: 70px;
+    transform: translateY(45%);
+}
+.main-carousel .button-arrow.-left{
+    left: 15px;
+}
+.main-carousel .button-arrow.-right{
+    right: 15px;
+}
